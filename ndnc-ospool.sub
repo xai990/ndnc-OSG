@@ -5,7 +5,7 @@
 # commnads) and arguments to be passed to jobs.
 # $(Process) will be a integer number for each job, starting with "0"
 # and increasing for the relevant number of jobs. 
-executable = ndnc.sh
+executable = scripts/ndnc.sh
 arguments = $(Process)
 
 # Sepcify the name of the log, standard error, and standard error, and standard output ( or "screen output") files. Wherever you see $(Cluster), HTCondor will insert the 
