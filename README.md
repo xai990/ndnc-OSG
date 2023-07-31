@@ -13,6 +13,7 @@ condor_submit ndnc-ospool.sub
 
 # to check on the status of the jobs in the queue
 condor_q
+```
 
 
 ## Output and debug 
