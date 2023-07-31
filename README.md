@@ -17,7 +17,7 @@ condor_q
 
 
 ## Output and debug 
-There are three specific files to store the execution results and erro information from OSPool. <br />
+There are three specific files under `results` folder. They are used to store the execution results and erro information from OSPool. <br />
 `ndnc-ospool_(cluster)_(process).err`, this file contains the error information while the jobs running on ospool.<br />
 `ndnc-ospool_(cluster)_(process).log`, this is the log file. <br />
 `ndnc-ospool_(cluster)_(process).out`, this is the execution results while the jobs finish.  
